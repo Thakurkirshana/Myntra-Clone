@@ -1,0 +1,60 @@
+/* 
+@media
+only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio : 2) { */
+/* Styles */
+/* } */
+/* Desktops and laptops ----------- */
+/* @media only screen 
+and (min-width : 1224px) { */
+/* Styles */
+/* } */
+/* Smartphones (portrait and landscape) ----------- */ 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 780px) {
+body{
+    /* overflow: hidden; */
+    
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.togerBtn{
+    display: block;
+}
+.mynta{
+    /* display:flex; */
+    width: 100%;
+    /* margin: auto; */
+    /* text-align: center; */
+    /* display: grid; */
+}
+.left img{
+    /* background-color: yellowgreen; */
+}
+.dev1 #inp{
+    /* text-align:left; */
+position: absolute;
+margin-left:-35vh;
+ width: 35vh;
+    display: flex;
+    /* background-color: red; */
+}
+li a {
+   display: none;
+   background-color: violet;
+}
+.lineoff{
+    /* display: none; */
+}
+.uparposter{
+    margin-top: 8%;
+}
+
+
+
+}
